@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [xmlCompareAgainstBaseline]" parallel="methods">
+  <parameter name="testType" value="compareTest"/>
+  <test name="SanityTest(failed)" parallel="methods" preserve-order="false">
+    <parameter name="testType" value="compareTest"/>
+    <classes>
+      <class name="com.sharpqa.comparesolution.test.ComparisonTest">
+        <methods>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="createXMLPageObjectMap"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+          <include name="testXMLPageObjectMapAgainstExpeted"/>
+        </methods>
+      </class>
+      <class name="com.sharpqa.comparesolution.test.ComparisonTestFactory">
+        <methods>
+          <include name="quitAllbrowsers"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
